@@ -1,30 +1,36 @@
-# ruang-aman-website
-Ruang Aman untuk Kita Perempuan Kuat adalah website interaktif yang dirancang sebagai instrumen sederhana untuk mengukur tingkat rasa aman perempuan dalam berbagai aspek kehidupan.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# 🌸 Ruang Aman untuk Kita Perempuan Kuat
+## Getting Started
 
-Website ini dibuat sebagai ruang aman digital untuk perempuan, dengan konsep mirip tes kepribadian (seperti MBTI), namun berfokus pada **pengukuran rasa aman** menggunakan skala **1–4**.  
-Tujuannya adalah memberikan refleksi sederhana tentang bagaimana perempuan merasakan keamanan, kenyamanan, dan perlindungan dalam kehidupan sehari-hari.
+First, run the development server:
 
-## ✨ Fitur Utama
-- **Kuesioner interaktif** dengan 16 pertanyaan seputar rasa aman di rumah, lingkungan, dan hukum.
-- **Skala 1–4** untuk menilai tingkat rasa aman (1 = sangat tidak aman, 4 = sangat aman).
-- **Hasil visualisasi sederhana** untuk menunjukkan kategori rasa aman.
-- **Desain responsif** menggunakan HTML, CSS, dan JavaScript.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## 🎯 Tujuan
-- Menyediakan ruang aman digital untuk refleksi diri.
-- Memberikan gambaran sederhana tentang kondisi psikologis dan sosial perempuan.
-- Menjadi portofolio web development dengan pendekatan survey interaktif.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🚀 Cara Menjalankan
-1. Clone repository ini:
-   ```bash
-   git clone https://github.com/username/ruang-aman-website.git
-   
-📚 Teknologi
-- HTML5
-- CSS3
-- JavaScript (untuk interaksi dan hasil survey)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-👩‍💻 Kontributor- Geral Tritama Wahyuady – Mahasiswa Fakultas Ilmu Komputer Unsika, semester 4.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
